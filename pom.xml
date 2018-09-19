@@ -459,6 +459,12 @@
         </profile>
 
     </profiles>
+    <scm>
+   <connection>scm:git:https://github.com/NYLDevOps/Test.git</connection>
+   <url>https://github.com/NYLDevOps/Test</url>
+   <developerConnection>scm:git:https://github.com/NYLDevOps/Test.git</developerConnection>
+   <tag>v0.1</tag>
+    </scm>
     <modules>
         <module>core</module>
         <module>ui.apps</module>
