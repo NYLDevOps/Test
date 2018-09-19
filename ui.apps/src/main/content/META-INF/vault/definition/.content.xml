@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="NYL Foundation Package"
+    jcr:primaryType="vlt:PackageDefinition"
+    sling:resourceType="cq/packaging/components/pack/definition"
+    buildCount="1"
+    cqVersion="6.4"
+    group="nyl-foundation-package"
+    name="nyl-foundation"
+    path="/etc/packages/nyl-foundation-package/nyl-foundation-1.0.0-SNAPSHOT"
+    version="1.0.0-SNAPSHOT">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/nyl-foundation"
+            rules="[]"/>
+
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/sling/servlet/errorhandler"
+            rules="[]"/>
+
+
+
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/clientlibs/nyl-foundation"
+            rules="[]"/>
+
+
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/designs/nyl-foundation"
+
+            rules="[include:/etc/designs/nyl-foundation/jcr:content,include:/etc/designs/nyl-foundation/jcr:content/clientlibs,include:/etc/designs/nyl-foundation/jcr:content/clientlibs/.*]"/>
+
+    </filter>
+</jcr:root>

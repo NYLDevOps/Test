@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>NYL Foundation Content Package</comment>
+<entry key="createdBy">c.k.gurhale</entry>
+<entry key="name">nyl-foundation.ui.apps</entry>
+<entry key="acHandling">merge_preserve</entry>
+<entry key="created">2018-09-19T12:58:52.117+0530</entry>
+<entry key="groupId">com.nyl.foundation</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">nyl-foundation-package</entry>
+<entry key="description">Maven Multimodule project for NYL Foundation.</entry>
+<entry key="artifactId">nyl-foundation.ui.apps</entry>
+<entry key="path">/etc/packages/nyl-foundation-package/nyl-foundation.ui.apps.zip</entry>
+</properties>

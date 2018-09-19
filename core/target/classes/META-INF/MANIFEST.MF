@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1537342066831
+Build-Jdk: 1.8.0_181
+Built-By: c.k.gurhale
+Bundle-Description: Maven Multimodule project for NYL Foundation.
+Bundle-ManifestVersion: 2
+Bundle-Name: NYL Foundation Bundle
+Bundle-SymbolicName: com.nyl.foundation.nyl-foundation
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Sling-Model-Packages: com.nyl.foundation.models
+Tool: Bnd-3.3.0.201609221906
